@@ -45,7 +45,7 @@ link_label = Label(screen, text="Enter Download Link: ", font=('Arial', 15))
 
 #Select Path for saving the file
 path_label = Label(screen, text="Select Path For Download", font=('Arial', 15))
-select_btn =  Button(screen, text="Select Path", bg='red', padx='22', pady='5',font=('Arial', 15), fg='#fff', command=select_path)
+select_btn =  Button(screen, text="เลือกโฟลเดอร์", bg='red', padx='22', pady='5',font=('Arial', 15), fg='#fff', command=select_path)
 # Add to window
 canvas.create_window(250, 280, window=path_label)
 canvas.create_window(250, 330, window=select_btn)
@@ -55,7 +55,7 @@ canvas.create_window(250, 170, window=link_label)
 canvas.create_window(250, 220, window=link_field)
 
 # Download btns
-download_btn = Button(screen, text="Download File",bg='green', padx='22', pady='5',font=('Arial', 15), fg='#fff', command=download_file)
+download_btn = Button(screen, text="ดาวน์โหลดวีดีโอ",bg='green', padx='22', pady='5',font=('Arial', 15), fg='#fff', command=download_file)
 # add to canvas
 canvas.create_window(250, 390, window=download_btn)
 
